@@ -58,6 +58,7 @@ a:hover {
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: black;
+  box-shadow: inset 0px 70px 75px -35px black;
 }
 
 #mainNav .navbar-toggler {
@@ -189,24 +190,10 @@ a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url(https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png);
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
-#map {
-  width: 100%;
-  height: 300px;
-}
-
-@media (min-width: 992px) {
-  #map {
-    height: 350px;
-  }
-}
 
 .btn {
   font-family: 'Fira Sans', sans-serif;
