@@ -49,7 +49,7 @@ a {
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #d22054;
 }
 
 #mainNav {
@@ -184,8 +184,8 @@ a:hover {
 }
 
 .content-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 .download-section {
@@ -193,7 +193,6 @@ a:hover {
   background: url(https://www.toptal.com/designers/subtlepatterns/patterns/pink%20dust.png);
   background-color: black;
 }
-
 
 .btn {
   font-family: 'Fira Sans', sans-serif;
@@ -214,10 +213,11 @@ a:hover {
 
 .btn-default:focus,
 .btn-default:hover {
-  color: black;
-  border: 1px solid #42DCA3;
+  font-size: 110%;
+  color: white;
+  border: 1px solid white;
   outline: none;
-  background-color: #42DCA3;
+  background-color: #d22054;
 }
 
 ul.banner-social-buttons {
